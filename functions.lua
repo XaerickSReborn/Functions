@@ -34,7 +34,7 @@ local function ChangeColor()
 end
 
 if mi_variable.Anchored == false then
-	--Si esta esta en esa posicion cambiara el color y el size
+	--Si esta esta Anchored cambiara el color y el size
 	print("La 'mi_variable' esta en la posicion esperada, cambiara de color y cambiara de tamaño")
 	ChangeColor()
 	mi_variable.Size=Vector3.new(10, 10, 10)
